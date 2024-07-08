@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "EB Garamond", serif;
+  
+}
+.navbar {
+  background-color: #395886; /* Dark background */
+  color: white; /* Text color */
+  padding: 1rem 0; /* Padding for the navbar */
+  height: 100px;
+}
+.navbar-brand{
+  margin-left: 50px;
+  font-weight: bold;
+}
+.navbar-brand img {
+  height: 100px; /* Adjust logo size */
+  margin: 0;
+  padding: 5px;
+}
+.navbar-nav .nav-link {
+  color: white; /* White text color */
+  margin: 0 1rem; /* Margin between links */
+}
+.navbar-nav .nav-link:hover {
+  color: #cce0ff; /* Light blue on hover */
+}
+.navbar-nav .nav-item {
+  margin: 0 1rem; /* Margin between nav items */
+}
+.navbar .nav-icons .nav-link {
+  color: white; /* White text color */
+}
+.navbar .nav-icons .nav-link:hover {
+  color: #cce0ff; /* Light blue on hover */
+}
+body {
+  background-color:#638ECB; /* Light gray background */
+}
+
+.card {
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.card-title {
+  color: #6a89aa; /* Blue color for card titles */
+}
+.card-body{
+  background-color: #d5deef;
+}
+
+.row{
+  background-color:  #638ecb;
+}
+
+.hero-section {
+  width: 100%;
+  background-image: url('https://static.gopro.com/assets/blta2b8522e5372af40/blt37347c912fa31ed0/64c3734c42b6f41fe445f521/hp-lifestyle-bundle-hp-1920-2x.png?width=1920&quality=80&auto=webp&disable=upscale'); 
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero-section p{
+  font-size: 25px;
+}
