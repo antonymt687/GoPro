@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   font-family: "EB Garamond", serif;
-  
+}
+body {
+  background-color:#9cbce9; /* Light gray background */
 }
 .navbar {
   background-color: #395886; /* Dark background */
@@ -35,14 +37,14 @@
 .navbar .nav-icons .nav-link:hover {
   color: #cce0ff; /* Light blue on hover */
 }
-body {
-  background-color:#638ECB; /* Light gray background */
-}
 
 .card {
   margin-bottom: 20px; /* Space between cards */
 }
-
+.card:hover{
+  box-shadow: 2px 4px 6px rgb(54, 54, 142);
+  scale: 1.06;
+}
 .card-title {
   color: #6a89aa; /* Blue color for card titles */
 }
@@ -65,4 +67,55 @@ body {
 }
 .hero-section p{
   font-size: 25px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire container */
+}
+
+.custom-footer {
+  width: 100%;
+  height: 500px;
+}
+.ft{
+  background-color: #638ecb;
+}
+
+footer .list-unstyled a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer .list-unstyled a:hover {
+  color: #ff0;
+}
+
+footer form .form-control {
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+}
+
+footer form .btn {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+footer form .btn:hover {
+  background-color: #ffa500;
 }
