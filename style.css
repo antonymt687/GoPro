@@ -54,6 +54,7 @@ body {
 
 .row{
   background-color:  #638ecb;
+  border-radius: 10px;
 }
 
 .hero-section {
